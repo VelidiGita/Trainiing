@@ -38,8 +38,41 @@
 
 // demo();
 
-var x=_=>{console.log("Arrow function1");
-    console.log("Hi");
-    console.log("Hello");
-    console.log("Bye");}
-    x();
+//var x=_=>{console.log("Arrow function1");
+//    console.log("Hi");
+//    console.log("Hello");
+//    console.log("Bye");}
+//    x();
+
+//closure:
+//closure is aa memory created when functions bundled together/functions nested by giving accessibility to the innermost function to access the variables of outermost function.
+
+function x(){
+    let a = 10;
+    const b = 20;
+    console.log(a,b);
+    function y() {
+        let p="Js";
+        var q = "reachJs";
+        console.log(p,q);
+        function z() {
+            const username = "gita";
+            console.log(username);
+            console.log(a);
+            console.log(q);
+        }
+        z();
+    }
+    y();
+}
+x();
+
+
+
+
+
+
+
+
+
+

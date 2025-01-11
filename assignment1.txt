@@ -115,5 +115,10 @@ ECMA - european computer manufacturing association
 //let x = (a,b)=>console.log(a+b);
 // x(5,5);
 
-
+arrays:
+- array can store multiple values within a single variable.
+- collections of items/values
+- array can store homogenous values and heterogenous values.
+Syntax :- [] 
+ex :- 
             

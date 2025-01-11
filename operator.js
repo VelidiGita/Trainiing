@@ -20,7 +20,7 @@
 //console.log(10 % 2);
 //console.log("10" % 2);//typecasting
 
-console.log(2*5);
+//console.log(2*5);
 console.log(10 % 2);
 
 
