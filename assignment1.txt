@@ -122,3 +122,32 @@ arrays:
 Syntax :- [] 
 ex :- 
             
+map and forEach diff::
+map:- it is used to iterate the values of an array one by one.
+- it will return new array from the original array.
+
+forEach:- it is used to iterate the values of an array.
+- if we return the value we will get "undefined"
+
+methods in array:
+push(),pop(),unshift(),shift(),reverse(),join()
+concat()
+
+what is object?
+- object is an entity which is used to store the values in the form of key and value pairs.
+- object is a physical entity which is having states(properties) and behaviours
+
+syntax:- int obj=(); 
+note:- object based language - 
+Ex:- int obj=(
+           name="ritu";
+           age=20;
+           );
+
+
+
+
+
+
+
+
