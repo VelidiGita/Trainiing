@@ -1,0 +1,237 @@
+variables:-
+***********
+- variables are used to store the data / values / literals.
+
+types of variables:-
+*******************
+1.var :- re-intitialization is possible
+        re-decalration is possible
+2.let:- re-intitialization is possible
+        re-decalration is not possible
+3.const:-  re-intitialization is not possible
+        re-decalration is not  possible
+
+ex: - var username = "Rakesh";
+    console.log(username);
+
+    - extension of javascript file  must be ".js".
+
+    console.log() :- it is a method to print the output in the developer console.
+    document.writeln():- it is a method to print the output on the UI.
+
+what is comment?
+-comments are the ignored lined by the browser.
+-to give an information to the developers.
+
+two type of comments in js:-
+****************************
+html :- <!-- comment to be done -->
+css :- /* ulkdsjvl */
+
+js:-
+1.single line comment - (//)
+2.multi-line comment - (//)
+
+
+what is data types?
+-datatypes used to specify what kind of data stored in the variable.
+
+types of data types:-
+*********************
+1.primitive data types:-
+- they are built-in
+- immutable
+- they can store only a single values
+    -string
+    -number
+    -boolean
+    -undefined
+    -null
+    -symbol
+    -bigint
+
+2.non-primtitive data types:-
+- they are user defined
+- mutable
+- they can store multiple values.
+    -array
+    -functions
+    -objects
+    -math , date , json
+
+Strings:-
+**********
+-sequence of characters enclosed within "" , '' , ``(template literals/backtiks)
+
+number:-
+- -2^53-1 to +2^53-1 upto this range we consider as number data type.
+- beyond this range it will be bigint.
+
+boolean :- true / false.
+
+undefined:- variable is declared but not initialized with the value.
+
+null:-null is empty value / absence of an object.
+- return type of null is "object".
+
+bigint:- any value exceed the range of number dattype we consider that as bigint.
+- any value sufix with "n" will be bigint.
+
+Functions:
+- function is a block of code used to excute specific task assigned to 
+- function is a non-primitive datat type
+- function can be reusable
+
+syntax: - function function_name(optional parameters){ //function decalration
+                //statements
+                }
+            function_name(arguments);
+
+Types of functions:-
+1.named function: function which is having a name and invoked with the same name.
+2.anonymus function: function which doesnot have a name to declare and to invoke.
+3.function expression: ananonymus function declaration is assigned to a and invoked with the same variable
+4.Immediate invoke function expression(IIFE): once the function is created Immediately it should be invoked.
+ - it can be executed only once.
+5.Arrow function: it is ued to concise the normal function syntax
+syntax:- ()=>{};
+- arrow function is similar to anonymus function.
+6.Higher order function:
+7.Callback function:
+- closure 
+
+Note:-
+- current version of JS is es14.
+- es6:- is a stable version.
+es - ECMA JavaScript
+ECMA - european computer manufacturing association
+
+//let x = ()=>console.log("Arrow function");
+// x();
+
+//let x = a=>console.log(a);
+// x(5);
+
+//let x = (a,b)=>console.log(a+b);
+// x(5,5);
+
+arrays:
+- array can store multiple values within a single variable.
+- collections of items/values
+- array can store homogenous values and heterogenous values.
+Syntax :- [] 
+ex :- 
+            
+map and forEach diff::
+map:- it is used to iterate the values of an array one by one.
+- it will return new array from the original array.
+
+forEach:- it is used to iterate the values of an array.
+- if we return the value we will get "undefined"
+
+methods in array:
+push(),pop(),unshift(),shift(),reverse(),join()
+concat()
+
+what is object?
+- object is an entity which is used to store the values in the form of key and value pairs.
+- object is a physical entity which is having states(properties) and behaviours
+
+syntax:- int obj=(); 
+note:- object based language - 
+Ex:- int obj=(
+           name="ritu";
+           age=20;
+           );
+
+map():- it is used to iterate values from the array.
+      - if we return the value, map() method returns new copied array.
+
+forEach():- it is used to iterate the values from the array.
+
+what is object?
+- object is an entity which is having states(properties) and behaviours.
+- object is used to store the data in the form of key and vallue pairs.
+
+syntax:-  let obj - {};
+
+note:- "this" - it is used to target current executing objects.
+
+JSON:- Javascript object notation.
+- JSON is a lightweight techinique of javascript used to transer data/information from 
+  client to server and vice-versa.
+- except number it will store but key 
+
+- JSON is always in the form of "string".
+methods of Json:-
+1.JSON.stringify():- it is used to convert javascript object into JSON object.
+2.JSON.parse() :- it is used to convert JSON object into javascript object.
+
+
+Asynchronous in javascript:-
+- to perform multiple task in javascript.
+
+1.setTimeout():- it is a web api used to perform async operations at 
+syntax:-  setTimeout(Callbackfn, timeout);
+
+2.setInterval():- it is a web api used to perform async operations at 
+syntax:-  setInterval(Callbackfn, timeout);
+
+3.promise:- promise is an object which represents eventual completion or failures of an async operations.
+   states of promise:-
+   1.pending state
+   2.fulfilled state
+   3.rejected state
+
+syntax:-  let p = new Promise((resolve,  reject)=>{});  
+
+- the actaul way of executing the promise is instance methods,
+    1.then():- it is used to execute fulfilled state
+    2.catch():- it is used to execute rejected state
+    3.finallY():- once promise is settled it will print the value
+
+
+4.async & await:-
+async:- async keyword is used to convert synchronous function into asynchronous function and 
+        start to execute the
+await:- await keyword is used to make the function to wait untill the promise completes.
+note:- by default, javascript is synchronous(single threaded).
+
+DOM:-
+- DOM stands for document object model.
+- DOM is used to add, remove , update content in the html document.
+- DOM is used to manipulate the content in the html document.
+
+DOM methods:-
+1.document.getElementById(""):- it is used to select or target the html element based on "id attribute" value.
+                              - id attribute should be unique/ it should be used with one element.
+
+2.document.getElementByClassName(""):- it is used to select the html element based on "class attribute" value.
+                                    - class attribute can be used with multiple elements with common value.
+
+3.document.getElementByTagName(""):- it is used to select html element based on tag names.
+
+4.document.getElementsByName(""):- it is used to select html element based on "name attribute" value.
+
+- these below methods select the html elements based on css selectors.
+5.document.querySelector(""):- it selects only one element.
+6.document.querySelectorAll(""):- it will selects multiple elements.
+
+innerText:- it is a property used to manipulate just plain text.
+innerHTML:- it is a property used to add / remove the content along with tags.
+
+Events in DOM:-
+- events are nothing but actions performed on html elements.
+- events are of click 
+
+dynamic creation of html element from javascript:-
+- to create a dynamic element in javascript we have a method callled as "document.createElement
+- to create an attribute we have a method called as "setAttribute()".
+- to remove attribute we have a method "removeAttribute()".
+
+
+
+
+
+
+
