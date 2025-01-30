@@ -93,7 +93,7 @@ Types of functions:-
 3.function expression: ananonymus function declaration is assigned to a and invoked with the same variable
 4.Immediate invoke function expression(IIFE): once the function is created Immediately it should be invoked.
  - it can be executed only once.
-5.Arrow function: it is ued to concise the normal function syntax
+5.Arrow function: it is used to concise the normal function syntax
 syntax:- ()=>{};
 - arrow function is similar to anonymus function.
 6.Higher order function:
@@ -158,7 +158,7 @@ syntax:-  let obj - {};
 note:- "this" - it is used to target current executing objects.
 
 JSON:- Javascript object notation.
-- JSON is a lightweight techinique of javascript used to transer data/information from 
+- JSON is a lightweight techinique of javascript used to transf.er data/information from 
   client to server and vice-versa.
 - except number it will store but key 
 
@@ -228,6 +228,8 @@ dynamic creation of html element from javascript:-
 - to create a dynamic element in javascript we have a method callled as "document.createElement
 - to create an attribute we have a method called as "setAttribute()".
 - to remove attribute we have a method "removeAttribute()".
+
+Modules:
 
 
 
